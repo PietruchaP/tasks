@@ -15,14 +15,20 @@ Ext.define('Tasks.service.L10n', {
         name: 'Task',
         description: 'Description',
         dueDate: 'Due date',
-        isCompleted: 'Is completed'
+        isCompleted: 'Is completed',
+        loginForm: 'Login form',
+        username: 'Username',
+        password: 'Password'
     },
 
     pl: {
         name: 'Zadanie',
         description: 'Opis',
         dueDate: 'Termin',
-        isCompleted: 'Zakończone'
+        isCompleted: 'Zakończone',
+        loginForm: 'Formularz logowania',
+        username: 'Użytkownik',
+        password: 'Hasło'
     }
 
 }, function() {
