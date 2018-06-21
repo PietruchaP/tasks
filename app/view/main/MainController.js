@@ -10,7 +10,7 @@ Ext.define('Tasks.view.main.MainController', {
 
     },
 
-    showLoginFormView: function () {
+    showLoginView: function () {
         this.showViewWithAlias('login-form');
     },
 
