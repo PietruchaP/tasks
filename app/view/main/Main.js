@@ -22,24 +22,24 @@ Ext.define('Tasks.view.main.Main', {
             },
             columns: [
                 {
-                    text: 'Name',
+                    text: Tasks.L10n('name'),
                     dataIndex: 'name',
                     flex: 1
                 },
                 {
-                    text: 'Description',
+                    text: Tasks.L10n('description'),
                     dataIndex: 'description',
                     flex: 2
                 },
                 {
-                    text: 'Due date',
+                    text: Tasks.L10n('dueDate'),
                     dataIndex: 'dueDate',
                     flex: 1,
                     render: Ext.util.Format.dateRenderer('d/M/Y')
                 },
                 {
                     xtype: 'checkcolumn',
-                    text: 'Is completed',
+                    text: Tasks.L10n('isCompleted'),
                     dataIndex: 'isCompleted',
                     flex: 1
                 }

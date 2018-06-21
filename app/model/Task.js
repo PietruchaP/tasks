@@ -2,7 +2,8 @@ Ext.define('Tasks.model.Task', {
     extend: 'Ext.data.Model',
 
     requires: [
-        'Ext.data.proxy.Rest'
+        'Ext.data.proxy.Rest',
+        'Tasks.Api'
     ],
 
     fields: [
@@ -35,7 +36,7 @@ Ext.define('Tasks.model.Task', {
 
     proxy: {
         type: 'rest',
-        url: 'http://localhost:3000/tasks',
+        url: Tasks.Api.tasks,
         writer: {
             writeAllFields: true
         }
